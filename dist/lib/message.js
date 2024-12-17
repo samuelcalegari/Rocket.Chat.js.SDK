@@ -12,7 +12,7 @@ class Message {
             this.msg = content;
         else
             Object.assign(this, content);
-        this.bot = { i: integrationId };
+        this.bot = true;
     }
     setRoomId(roomId) {
         this.rid = roomId;
